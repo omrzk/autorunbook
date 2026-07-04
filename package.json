@@ -1,0 +1,33 @@
+{
+  "name": "autorunbook",
+  "version": "1.0.0",
+  "description": "AI Runbook Generator — turn incidents, logs, tickets, alerts, emails and change requests into versioned, approvable operational runbooks.",
+  "license": "AGPL-3.0-only",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/omrzk/autorunbook"
+  },
+  "private": false,
+  "scripts": {
+    "dev": "next dev -p 3040",
+    "build": "next build",
+    "start": "next start -p 3040",
+    "seed": "node scripts/seed.mjs"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.10.0",
+    "marked": "^15.0.7",
+    "next": "^15.3.3",
+    "pdfkit": "^0.17.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^22.15.0",
+    "@types/pdfkit": "^0.13.9",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "typescript": "^5.8.3"
+  }
+}
